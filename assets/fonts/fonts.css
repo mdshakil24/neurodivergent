@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Winsel Condensed';
+    src: url('WinselCondensed-Black.eot');
+    src: url('WinselCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('WinselCondensed-Black.woff2') format('woff2'),
+        url('WinselCondensed-Black.woff') format('woff'),
+        url('WinselCondensed-Black.ttf') format('truetype'),
+        url('WinselCondensed-Black.svg#WinselCondensed-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}

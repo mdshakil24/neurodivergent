@@ -1,0 +1,525 @@
+@media all and (max-width: 1399px) {
+
+
+    .single-lv-memberships-text p, .single-lv-memberships-text h5, .single-lv-memberships-text h6 {
+        font-size: 19px;
+        max-width: 210px;
+    }
+
+    .lv-header-nav-menu ul li a, .single-lv-footer-link ul li a {
+        font-size: 17px;
+    }
+
+    .similar-btn a, .lv-register-submit-btn input {
+        font-size: 27px;
+    }
+
+    .lv-hero-right-content h2 {
+        width: 80%;
+    }
+
+    .lv-similar-table-text {
+        padding-left: 40px;
+    }
+
+
+
+
+}
+
+
+@media all and (max-width: 1199px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 37px;
+    }
+
+    h3 {
+        font-size: 34px;
+    }
+
+
+
+
+
+    .lv-header-logo img,
+    .lv-footer-logo img {
+        width: 175px;
+    }
+
+    .lv-register-input-right-fields {
+        padding-left: 30px;
+    }
+
+    .lv-register-input-left-fields {
+        padding-right: 30px;
+    }
+
+
+
+    .lv-hero-left-content p {
+        margin-top: 40px;
+        margin-bottom: 80px;
+        width: 95%;
+    }
+
+    .lv-hero-right-content h2 {
+        width: 95%;
+    }
+
+    .lv-hero-right-content a {
+        margin-bottom: 50px;
+    }
+
+    .lv-hero-right-content {
+        margin-top: 155px;
+    }
+
+    .similar-btn a,
+    .lv-register-submit-btn input {
+        font-size: 26px;
+        padding: 20px 70px 14px 70px;
+    }
+
+    .similar-btn.check-out a {
+        padding: 20px 30px 14px 30px;
+    }
+
+    .lv-become-member-left-content p {
+        width: 95%;
+        margin-top: 20px;
+        margin-bottom: 34px;
+    }
+
+    .lv-scenery-area .lv-become-member-left-content p {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .lv-scenery-area .lv-become-member-right-image img {
+        width: 100%;
+    }
+
+    .single-lv-footer-link.pl {
+        padding-left: 0;
+    }
+
+    .lv-footer-copyright-text,
+    .lv-footer-email-social {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    }
+
+    .lv-footer-email-social ul li a img {
+        width: 30px;
+    }
+
+    .lv-footer-area,
+    .section-padding,
+    .lv-faq-area,
+    .lv-memberships-area {
+        padding: 70px 0;
+    }
+
+    .lv-similar-table-text {
+        padding-left: 30px;
+    }
+
+
+
+}
+
+
+@media all and (max-width: 991px) {
+    .lv-header-area {
+        padding-top: 30px;
+    }
+
+    .lv-header-logo img,
+    .lv-footer-logo img {
+        width: 145px;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .lv-header-logo-nav {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .lv-header-nav-menu ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background: rgba(0,0,0,.9);
+        padding: 20px 0;
+        top: 165px;
+        display: none;
+        text-align: center;
+    }
+
+    .lv-header-nav-menu ul li a,
+    .single-lv-footer-link ul li a {
+        padding-bottom: 5px;
+        margin: 6px 0;
+    }
+
+    .lv-hero-left-content p,
+    .lv-hero-right-content h2,
+    .lv-become-member-left-content p {
+        width: 100%;
+    }
+
+    .lv-hero-left-content p {
+        margin-top: 20px;
+        margin-bottom: 65px;
+    }
+
+    .lv-hero-right-content {
+        margin-top: 80px;
+    }
+
+    .lv-become-member-right-image img {
+        margin-top: 50px;
+    }
+
+    .single-lv-footer-link {
+        margin-top: 25px;
+    }
+
+    .lv-footer-copyright-contact {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+
+    .lv-footer-copyright-text,
+    .lv-footer-email-social {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+
+    .lv-footer-email-social {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .lv-footer-email-social ul li a img {
+        margin: 0 10px;
+    }
+
+    .lv-footer-email-social ul {
+        margin: 18px 0 30px;
+    }
+
+    .lv-similar-table-text {
+        padding-left: 0;
+    }
+
+    .lv-scenery-area .lv-become-member-right-image {
+        margin-right: 0;
+    }
+
+    .single-lv-memberships-heading {
+        padding-bottom: 25px;
+    }
+
+    .lv-memberships-content::before {
+        display: none;
+    }
+
+    .single-lv-faq-items h3 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .single-lv-faq-items p {
+        width: 100%;
+    }
+
+    .lv-register-input-fields {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .lv-register-input-left-fields {
+        padding-right: 0;
+    }
+
+    .lv-register-input-right-fields {
+        padding-left: 0;
+        padding-top: 50px;
+    }
+
+    .lv-register-content {
+        padding-top: 50px;
+    }
+
+    .lv-register-submit-btn {
+        margin-top: 80px;
+    }
+
+
+
+}
+
+
+@media all and (max-width: 767px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+
+    .single-lv-memberships-text p,
+    .single-lv-memberships-text h5,
+    .single-lv-memberships-text h6, p {
+        font-size: 18px;
+    }
+
+    .similar-btn a,
+    .lv-register-submit-btn input {
+        font-size: 22px;
+        padding: 20px 50px 14px 50px;
+    }
+
+    .lv-footer-top-content {
+        text-align: center;
+    }
+
+    .single-lv-footer-link {
+        margin-top: 35px;
+    }
+
+    .lv-header-nav-menu ul li a,
+    .single-lv-footer-link ul li a {
+        margin: 4px 0;
+    }
+
+    .single-lv-faq-items h3 {
+        font-size: 27px;
+    }
+
+    .single-lv-faq-items h3 i {
+        font-size: 20px;
+        margin-top: 6px;
+    }
+
+
+
+
+}
+
+
+@media all and (max-width: 575px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3,
+    .single-lv-memberships-heading h3 {
+        font-size: 28px;
+    }
+
+    p,
+    .lv-header-nav-menu ul li a,
+    .single-lv-footer-link ul li a,
+    .single-lv-register-field input,
+    .single-lv-register-field select,
+    .single-lv-register-field label,
+    .single-lv-register-field select {
+        font-size: 18px;
+    }
+
+    .similar-btn a,
+    .lv-register-submit-btn input {
+        font-size: 22px;
+        padding: 20px 50px 14px 50px;
+    }
+
+    .lv-header-logo img,
+    .lv-footer-logo img {
+        width: 130px;
+    }
+
+    .lv-footer-copyright-text {
+        text-align: center;
+    }
+
+    .lv-header-nav-menu ul {
+        top: 150px;
+    }
+
+    .lv-header-logo-nav {
+        margin-bottom: 45px;
+    }
+
+    .lv-header-area {
+        padding-bottom: 50px;
+    }
+
+    .lv-footer-area,
+    .section-padding,
+    .lv-faq-area,
+    .lv-memberships-area {
+        padding: 50px 0;
+    }
+
+    .single-lv-memberships-content {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+    .lv-memberships-content::after {
+        display: none;
+    }
+
+    .lv-memberships-bottom-text {
+        padding-top: 0;
+    }
+
+    .single-lv-faq-items h3 {
+        font-size: 25px;
+    }
+
+    .single-lv-register-field {
+        margin-bottom: 30px;
+    }
+
+    .lv-register-submit-btn {
+        margin-top: 40px;
+    }
+
+    .lv-register-content {
+        padding-top: 35px;
+    }
+
+    .lv-play-game-area,
+    .lv-book-tables-area {
+        background-position: center center;
+    }
+
+    .lv-become-member-right-image img {
+        margin-top: 35px;
+    }
+
+
+
+}
+
+
+@media all and (max-width: 450px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3,
+    .single-lv-memberships-heading h3 {
+        font-size: 25px;
+    }
+
+    .single-lv-faq-items h3 {
+        font-size: 22px;
+    }
+
+    .single-lv-memberships-heading p {
+        font-size: 18px;
+    }
+
+    .lv-header-area {
+        padding-top: 25px;
+    }
+
+    .lv-footer-area,
+    .section-padding,
+    .lv-faq-area,
+    .lv-memberships-area {
+        padding: 40px 0;
+    }
+
+    .similar-btn a,
+    .lv-register-submit-btn input {
+        font-size: 20px;
+        padding: 20px 50px 14px 50px;
+    }
+
+    .lv-header-logo img,
+    .lv-footer-logo img {
+        width: 115px;
+    }
+
+    .similar-btn.check-out a {
+        padding: 20px 20px 14px 20px;
+        font-size: 18px;
+    }
+
+    .lv-header-nav-menu ul {
+        top: 135px;
+    }
+
+    .lv-hero-left-content p {
+        margin-bottom: 45px;
+    }
+
+    .lv-hero-right-content {
+        margin-top: 50px;
+    }
+
+    .single-lv-footer-link {
+        margin-top: 25px;
+    }
+
+    .lv-footer-copyright-contact {
+        margin-top: 30px;
+    }
+
+    .lv-become-member-right-image img {
+        margin-top: 25px;
+    }
+
+    .single-lv-faq-items h3 i {
+        font-size: 18px;
+        margin-top: 5px;
+        margin-right: 15px;
+    }
+
+    .single-lv-faq-items p {
+        padding-left: 30px;
+    }
+
+
+
+}
