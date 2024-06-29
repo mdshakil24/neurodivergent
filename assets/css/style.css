@@ -45,9 +45,9 @@ li {
   list-style: none;
 }
 
-h2 {
-  font-weight: 500;
-  font-size: 35px;
+h1 {
+  font-weight: 600;
+  font-size: 34px;
   color: #664481;
   text-transform: inherit;
   line-height: 1;
@@ -96,6 +96,11 @@ nav.neurodivergent-upper-nav ul li a {
   color: #081b38;
   text-transform: uppercase;
   margin-left: 30px;
+  transition: .2s;
+}
+
+nav.neurodivergent-upper-nav ul li a:hover {
+  color: #53BFEC;
 }
 
 
@@ -120,6 +125,10 @@ nav.neurodivergent-lower-nav > ul li a {
   line-height: 1;
   padding: 20px 25px 30px;
   border: 1px solid transparent;
+  transition: .3s;
+}
+nav.neurodivergent-lower-nav > ul li a:hover {
+  color: #53BFEC;
 }
 
 nav.neurodivergent-lower-nav > ul li:first-child a {
@@ -160,6 +169,7 @@ nav.neurodivergent-lower-nav ul li > ul li > a {
   border-top-right-radius: 10px;
   position: relative;
   z-index: 9999;
+  color: #664481;
 }
 
 .dropdown-toggle.show::before {
@@ -255,31 +265,31 @@ section.nt-hero-area img {
 
 /*===== Start NT Health Crisis Area Css =====*/
 
-.health-crisis-slider-area {
+.nt-health-crisis-area {
+  background-color: #ffffff;
   padding-top: 50px;
 
 }
 
-.health-crisis-slider-content {
+.nt-health-crisis-content {
   width: 90%;
   margin: auto;
 }
 
-.single-health-crisis-slider-content {
+.single-nt-health-crisis-content {
   padding: 0 50px;
 }
-.single-health-crisis-slider-img img {
+.single-nt-health-crisis-img img {
   height: 75px !important;
   width: auto !important;
   margin: 0 auto;
 }
-.health-crisis-bottom-border img {
+.nt-health-crisis-bottom-border img {
   width: 100%;
   height: auto;
-  margin-top: 40px;
 }
 
-.health-crisis-heading-text h2 {
+.nt-health-crisis-heading-text h2 {
   width: 65%;
   text-align: center;
   margin: 0 auto;
@@ -287,7 +297,7 @@ section.nt-hero-area img {
   margin-bottom: 50px;
 }
 
-.single-health-crisis-slider-text p {
+.single-nt-health-crisis-text p {
   font-weight: 400;
   font-size: 19px;
   color: #005885;
@@ -296,24 +306,222 @@ section.nt-hero-area img {
   margin-top: 25px;
 }
 
-.health-crisis-slider-content.owl-theme button.owl-next img, .health-crisis-slider-content.owl-theme button.owl-prev img {
+.nt-health-crisis-content.owl-theme button.owl-next img, .nt-health-crisis-content.owl-theme button.owl-prev img {
   width: 18px;
   position: absolute;
   top: 80px;
 }
-.health-crisis-slider-content.owl-theme button.owl-next img {
+.nt-health-crisis-content.owl-theme button.owl-next img {
   right: -40px;
 }
-.health-crisis-slider-content.owl-theme button.owl-prev img {
+.nt-health-crisis-content.owl-theme button.owl-prev img {
   left: -40px;
 }
-.health-crisis-slider-content.owl-theme .owl-nav [class*=owl-]:hover {
+.nt-health-crisis-content.owl-theme .owl-nav [class*=owl-]:hover {
   background: transparent;
   text-decoration: none;
 }
 
 
 /*===== End NT Health Crisis Area Css =====*/
+
+/*===== Start NT Mental Health Area Css =====*/
+
+.nt-mental-health-area {
+  background-color: #FFFFFF;
+  padding-top: 100px;
+  padding-bottom: 65px;
+}
+
+.nt-mental-health-heading h1 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.nt-mental-health-upper-left-content {
+  width: 95%;
+  padding-top: 25px;
+}
+
+.nt-mhu-left-heading h5 {
+  font-weight: 500;
+  font-size: 26px;
+  color: #664481;
+  text-transform: inherit;
+  line-height: 1.5;
+}
+
+.nt-mhu-left-heading p {
+  font-weight: 400;
+  font-size: 22px;
+  color: #664481;
+  text-transform: inherit;
+  line-height: 1.5;
+  margin: 30px 0 50px;
+}
+
+
+.nt-mhu-left-heading p {
+  font-weight: 400;
+  font-size: 22px;
+  color: #664481;
+  text-transform: inherit;
+  line-height: 2;
+  margin: 30px 0 40px;
+}
+
+.nt-mhu-left-heading img {
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.nt-mhu-left-text p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #664481;
+  text-transform: inherit;
+  line-height: 2;
+  margin-bottom: 35px;
+}
+
+
+.nt-mental-health-upper-right-content {
+  padding-left: 10%;
+}
+
+.nt-mhu-right-tab-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nt-mhu-right-tab-btn button {
+  font-weight: 600;
+  font-size: 21px;
+  color: #005885;
+  text-transform: inherit;
+  line-height: 1.5;
+  border: none;
+  background: #F4F4F4;
+  padding: 30px 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(0,0,0,.3);
+  flex: 0 0 50%;
+  text-align: left;
+  position: relative;
+}
+.nt-mhu-right-tab-btn button.active {
+  background-color: #FFFFFF;
+}
+
+.nt-mhu-right-tab-btn button.active::after {
+  content: '';
+  position: absolute;
+  background: #FFFFFF;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: -23px;
+  z-index: 2;
+}
+
+.nt-mhu-right-text {
+  background: #FFFFFF;
+  padding: 50px 40px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, .3);
+  border-radius: 15px;
+  margin-top: -20px;
+  z-index: 1;
+  position: relative;
+}
+
+.single-nt-mhu-right-text p img {
+  width: 15px;
+  height: auto;
+  margin-right: 6px;
+}
+
+.nt-mhu-right-text h5 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #664481;
+  text-transform: inherit;
+  line-height: 1.5;
+  width: 95%;
+}
+
+.single-nt-mhu-right-text p {
+  font-size: 19px;
+  color: #664481;
+  text-transform: inherit;
+  line-height: 1.5;
+}
+
+.single-nt-mhu-right-text,.single-nt-mhu-right-child-text {
+  margin-top: 25px;
+}
+
+.nt-mhu-right-text {
+  display: none;
+}
+
+.nt-mental-health-upper-content {
+  margin-bottom: 80px;
+}
+
+.single-nt-mhl-image img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.single-nt-mhl-content {
+  border: 1px solid #795b91;
+  border-radius: 15px;
+  min-height: 518px;
+}
+
+.single-nt-mhl-text {
+  padding: 20px 20px 40px;
+}
+
+.single-nt-mhl-text h4 {
+  font-weight: 400;
+  font-size: 22px;
+  color: #664481;
+  text-transform: inherit;
+  line-height: 1.4;
+  width: 95%;
+}
+
+.single-nt-mhl-text p {
+  color: #005885;
+  margin: 25px 0;
+  line-height: 1.3;
+}
+
+.single-nt-mhl-link a {
+  font-weight: 500;
+  font-size: 17px;
+  color: #005885;
+  line-height: 1.2;
+}
+
+.single-nt-mhl-link a:hover {
+  color: #5b9e6b;
+}
+.nt-mental-health-lower-content .row>* {
+  padding-right: calc(var(--bs-gutter-x) * .7);
+  padding-left: calc(var(--bs-gutter-x) * .7);
+}
+
+
+
+/*===== End NT Mental Health Area Css =====*/
 
 
 
@@ -358,8 +566,12 @@ section.nt-hero-area img {
   text-transform: lowercase;
   line-height: normal;
   margin-right: 35px;
+  transition: .3s;
 }
 
+.nt-footer-left-link a:hover {
+  color: #53BFEC;
+}
 
 
 .nt-footer-left-text p {
