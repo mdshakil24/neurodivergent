@@ -47,18 +47,26 @@ li {
 
 h1 {
   font-weight: 600;
-  font-size: 34px;
+  font-size: 40px;
   color: #664481;
   text-transform: inherit;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 h2 {
+  font-weight: 600;
+  font-size: 34px;
+  color: #664481;
+  text-transform: inherit;
+  line-height: 1.5;
+}
+
+h3 {
   font-weight: 500;
   font-size: 30px;
   color: #664481;
   text-transform: inherit;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 p {
@@ -66,8 +74,41 @@ p {
   font-size: 16px;
   color: #081b38;
   text-transform: inherit;
-  line-height: 1;
+  line-height: 1.5;
 }
+
+.nt-similar-hero-area {
+  position: relative;
+}
+
+.nt-similar-hero-area img {
+  width: 100%;
+  height: auto;
+}
+
+.nt-similar-hero-btn .nt-hero-btn {
+  justify-content: flex-end;
+  padding-top: 80px;
+}
+
+.nt-similar-hero-btn .nt-hero-btn a {
+  padding: 8px 18px;
+  margin-left: 12px;
+}
+
+.nt-hero-container,
+.nt-footer-container,
+.nt-similar-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  right: 0;
+  z-index: 1;
+}
+
 
 /*===== Start NT Header Area Css =====*/
 
@@ -96,7 +137,6 @@ nav.neurodivergent-upper-nav ul li a {
   color: #081b38;
   text-transform: uppercase;
   margin-left: 30px;
-  transition: .2s;
 }
 
 nav.neurodivergent-upper-nav ul li a:hover {
@@ -105,7 +145,7 @@ nav.neurodivergent-upper-nav ul li a:hover {
 
 
 
-nav.neurodivergent-lower-nav > ul {
+nav.neurodivergent-lower-nav>ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -117,7 +157,7 @@ nav.neurodivergent-lower-nav ul li {
   position: relative;
 }
 
-nav.neurodivergent-lower-nav > ul li a {
+nav.neurodivergent-lower-nav>ul li a {
   font-weight: 500;
   font-size: 28px;
   color: #664481;
@@ -125,33 +165,33 @@ nav.neurodivergent-lower-nav > ul li a {
   line-height: 1;
   padding: 20px 25px 30px;
   border: 1px solid transparent;
-  transition: .3s;
 }
-nav.neurodivergent-lower-nav > ul li a:hover {
+
+nav.neurodivergent-lower-nav>ul li a:hover {
   color: #53BFEC;
 }
 
-nav.neurodivergent-lower-nav > ul li:first-child a {
+nav.neurodivergent-lower-nav>ul li:first-child a {
   padding-left: 0;
 }
 
-nav.neurodivergent-lower-nav > ul li:last-child a {
+nav.neurodivergent-lower-nav>ul li:last-child a {
   padding-right: 0;
   margin-bottom: 0;
 }
 
-nav.neurodivergent-lower-nav ul li > ul {
+nav.neurodivergent-lower-nav ul li>ul {
   width: 450px;
   background: #FFFFFF;
   padding: 10px 25px 40px;
-  border: 1px solid rgba(0,0,0,.3);
-  box-shadow: 0 0 5px rgba(0,0,0,.6);
+  border: 1px solid rgba(0, 0, 0, .3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .6);
   border-radius: 10px;
   border-top-left-radius: 0;
   margin-top: 2px !important;
 }
 
-nav.neurodivergent-lower-nav ul li > ul li > a {
+nav.neurodivergent-lower-nav ul li>ul li>a {
   font-weight: 400;
   font-size: 22px;
   color: #664481;
@@ -161,8 +201,8 @@ nav.neurodivergent-lower-nav ul li > ul li > a {
 }
 
 .dropdown-toggle.show {
-  border: 1px solid rgba(0,0,0,.3);
-  box-shadow: 0 0 5px rgba(0,0,0,.6);
+  border: 1px solid rgba(0, 0, 0, .3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .6);
   padding: 20px 25px 30px;
   border-bottom: none;
   border-top-left-radius: 10px;
@@ -199,16 +239,6 @@ nav.neurodivergent-lower-nav ul li > ul li > a {
   position: relative;
 }
 
-.nt-hero-container,.nt-footer-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  max-width: 1320px;
-  margin: 0 auto;
-  right: 0;
-  z-index: 1;
-}
 
 section.nt-hero-area img {
   width: 100%;
@@ -228,6 +258,7 @@ section.nt-hero-area img {
   text-transform: inherit;
   line-height: 1.6;
 }
+
 .nt-hero-content p {
   font-weight: 400;
   font-size: 27px;
@@ -253,9 +284,9 @@ section.nt-hero-area img {
   border-radius: 12px;
   background: #6CC9EB;
   line-height: 1;
-  transition: .3s;
   margin-right: 12px;
 }
+
 .nt-hero-btn a:hover {
   background: #CBC817;
 }
@@ -279,17 +310,19 @@ section.nt-hero-area img {
 .single-nt-health-crisis-content {
   padding: 0 50px;
 }
+
 .single-nt-health-crisis-img img {
   height: 75px !important;
   width: auto !important;
   margin: 0 auto;
 }
+
 .nt-health-crisis-bottom-border img {
   width: 100%;
   height: auto;
 }
 
-.nt-health-crisis-heading-text h2 {
+.nt-health-crisis-heading-text h3 {
   width: 65%;
   text-align: center;
   margin: 0 auto;
@@ -306,21 +339,27 @@ section.nt-hero-area img {
   margin-top: 25px;
 }
 
-.nt-health-crisis-content.owl-theme button.owl-next img, .nt-health-crisis-content.owl-theme button.owl-prev img {
+.nt-health-crisis-content.owl-theme button.owl-next img,
+.nt-health-crisis-content.owl-theme button.owl-prev img {
   width: 18px;
   position: absolute;
   top: 80px;
 }
+
 .nt-health-crisis-content.owl-theme button.owl-next img {
   right: -40px;
 }
+
 .nt-health-crisis-content.owl-theme button.owl-prev img {
   left: -40px;
 }
+
 .nt-health-crisis-content.owl-theme .owl-nav [class*=owl-]:hover {
   background: transparent;
   text-decoration: none;
 }
+
+
 
 
 /*===== End NT Health Crisis Area Css =====*/
@@ -333,7 +372,7 @@ section.nt-hero-area img {
   padding-bottom: 65px;
 }
 
-.nt-mental-health-heading h1 {
+.nt-mental-health-heading h2 {
   text-align: center;
   margin-bottom: 80px;
 }
@@ -408,11 +447,12 @@ section.nt-hero-area img {
   background: #F4F4F4;
   padding: 30px 40px 50px;
   border-radius: 15px;
-  box-shadow: 0 0 8px rgba(0,0,0,.3);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .3);
   flex: 0 0 50%;
   text-align: left;
   position: relative;
 }
+
 .nt-mhu-right-tab-btn button.active {
   background-color: #FFFFFF;
 }
@@ -460,7 +500,8 @@ section.nt-hero-area img {
   line-height: 1.5;
 }
 
-.single-nt-mhu-right-text,.single-nt-mhu-right-child-text {
+.single-nt-mhu-right-text,
+.single-nt-mhu-right-child-text {
   margin-top: 25px;
 }
 
@@ -514,18 +555,195 @@ section.nt-hero-area img {
 .single-nt-mhl-link a:hover {
   color: #5b9e6b;
 }
+
 .nt-mental-health-lower-content .row>* {
   padding-right: calc(var(--bs-gutter-x) * .7);
   padding-left: calc(var(--bs-gutter-x) * .7);
 }
 
-
-
 /*===== End NT Mental Health Area Css =====*/
 
+/*================ Start NT About Us Area Css ================*/
+.nt-about-us-area {
+  padding-top: 50px;
+}
+
+.nt-about-us-left-content h6 {
+  font-weight: 400;
+  font-size: 23px;
+  color: #664481;
+  text-transform: inherit;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.nt-about-us-left-content p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #664481;
+  line-height: 1.7;
+}
+
+.nt-about-us-right-content {
+  padding-left: 80px;
+}
+
+.nt-about-us-border img {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+}
+
+.nt-about-us-right-heading h6 {
+  font-weight: 500;
+  font-size: 26px;
+  color: #cb7c18;
+  text-transform: inherit;
+  margin-bottom: 40px;
+}
+
+.nt-about-us-right-link p {
+  font-weight: 400;
+  font-size: 20px;
+  display: block;
+  color: #cb7c18;
+}
+
+/*===== End NT About Us Area Css =====*/
+
+/*===== Start NT About Us Area Css =====*/
+section.nt-about-goal-area {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
 
 
+/* bootstrap custom accordion css  */
+button.accordion-button {
+  font-weight: 600;
+  font-size: 25px;
+  color: #cb7c18;
+  padding: 0;
+  background: transparent;
+  border: none;
+}
 
+.accordion-item {
+  border: none;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+  background-color: var(--bs-accordion-active-bg);
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+  background: transparent;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #664481;
+  color: #664481;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  display: inline-block;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: 0.45em solid;
+  border-right: .28em solid transparent;
+  border-bottom: 0;
+  border-left: .28em solid transparent;
+  background-image: none;
+  width: 0;
+  height: auto;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+  display: none;
+}
+
+.accordion-body {
+  padding: 20px 0 15px;
+}
+.single-nt-about-accordion-item p {
+  color: #664481;
+  line-height: 1.7;
+}
+.single-nt-about-accordion-item p span {
+  font-weight: 600;
+  color: #664481;
+}
+.single-nt-about-accordion-item {
+  margin-bottom: 30px;
+}
+.single-nt-about-accordion-item:last-child {
+  margin-bottom: 0;
+}
+
+/* bootstrap custom accordion css  */
+
+.single-nt-about-lower-team {
+  margin-top: 90px;
+}
+.single-nt-about-team-image img {
+  width: 100%;
+  height: auto;
+}
+.single-nt-about-team-text {
+  text-align: center;
+  margin-top: 35px;
+}
+.single-nt-about-team-text h5 {
+  font-weight: 500;
+  font-size: 29px;
+  color: #664481;
+  text-transform: capitalize;
+}
+.single-nt-about-team-text p {
+  color: #664481;
+}
+.single-nt-about-team-image img {
+  width: 345px;
+  height: 345px;
+  border-radius: 50%;
+  border: 18px solid #74d6c8;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+.tm1 img {
+  border: 18px solid #74d6c8;
+}
+
+.tm2 img {
+  border: 18px solid #d8d877;
+}
+
+.tm3 img {
+  border: 18px solid #c995c7;
+}
+
+.tm4 img {
+  border: 18px solid #e5b070;
+}
+
+.tm5 img {
+  border: 18px solid #85d69c;
+}
+
+.tm6 img {
+  border: 18px solid #64d5f4;
+}
+
+
+/*===== End NT About Us Area Css =====*/
 
 
 
@@ -552,7 +770,8 @@ section.nt-hero-area img {
   padding: 70px 0 270px;
 }
 
-.nt-footer-left-link,.nt-footer-left-social {
+.nt-footer-left-link,
+.nt-footer-left-social {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -566,7 +785,6 @@ section.nt-hero-area img {
   text-transform: lowercase;
   line-height: normal;
   margin-right: 35px;
-  transition: .3s;
 }
 
 .nt-footer-left-link a:hover {
@@ -587,6 +805,10 @@ section.nt-hero-area img {
   font-size: 35px;
   color: #FFFFFF;
   margin-left: 20px;
+}
+
+.nt-footer-left-social a i:hover {
+  color: #53BFEC;
 }
 
 
