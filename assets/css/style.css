@@ -116,7 +116,7 @@ p {
   max-width: 1320px;
   margin: 0 auto;
   right: 0;
-  z-index: 1;
+  z-index: 9;
 }
 
 .mobile-menu-icon {
@@ -198,6 +198,28 @@ p {
   top: 18px;
   width: 0%;
   left: 50%;
+}
+
+li.desktop-dropdown {
+  display: block;
+}
+li.mobile-dropdown {
+  display: none;
+  position: relative;
+}
+
+li.mobile-dropdown::after {
+  display: inline-block;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .8em solid;
+  border-right: .5em solid transparent;
+  border-bottom: 0;
+  border-left: .5em solid transparent;
+  position: absolute;
+  top: 23px;
+  left: 272px;
 }
 
 /*===== Start NT Header Area Css =====*/
@@ -300,12 +322,10 @@ nav.neurodivergent-lower-nav ul li>ul {
   width: 450px;
   background: #FFFFFF;
   padding: 10px 25px 40px;
-  border: 1px solid rgba(0, 0, 0, .3);
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .6);
-  box-shadow: 0 0 5px rgba(0, 0, 0, .6);
   border-radius: 10px;
   border-top-left-radius: 0;
   margin-top: 2px !important;
+  box-shadow: rgba(14, 30, 37, 0.18) 0px 3px 6px 0px, rgba(14, 30, 37, 0.32) 0px 3px 6px 0px;
 }
 
 nav.neurodivergent-lower-nav ul li>ul li>a {
@@ -585,6 +605,7 @@ section.nt-hero-area img {
   flex: 0 0 50%;
   text-align: left;
   position: relative;
+  box-shadow: rgba(14, 30, 37, 0.18) 0px 0px 6px 0px, rgba(14, 30, 37, 0.32) 0px 1px 10px 0px;
 }
 
 .nt-mhu-right-tab-btn button.active {
@@ -605,12 +626,11 @@ section.nt-hero-area img {
 .nt-mhu-right-text {
   background: #FFFFFF;
   padding: 50px 40px;
-  -webkit-box-shadow: 0px 3px 8px rgba(0, 0, 0, .3);
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, .3);
   border-radius: 15px;
   margin-top: -20px;
   z-index: 1;
   position: relative;
+  box-shadow: rgba(14, 30, 37, 0.18) 0px 3px 6px 0px, rgba(14, 30, 37, 0.32) 0px 1px 8px 0px;
 }
 
 .single-nt-mhu-right-text p img {
@@ -1306,6 +1326,36 @@ button.accordion-button {
 .nt-footer-left-link a:hover {
   color: #53BFEC;
 }
+
+._Group_ {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 7421px;
+  height: 14057px;
+  z-index: 82;
+}
+._Group_ {
+  background-image: url("<Group>.png");
+  position: absolute;
+  left: 2588px;
+  top: 779px;
+  width: 1913px;
+  height: 1302px;
+  z-index: 81;
+}
+
+._Image_ {
+  background-image: url("<Image>.png");
+  opacity: 0.749;
+  position: absolute;
+  left: 2559px;
+  top: 751px;
+  width: 1975px;
+  height: 1366px;
+  z-index: 80;
+}
+
 
 
 .nt-footer-left-text p {

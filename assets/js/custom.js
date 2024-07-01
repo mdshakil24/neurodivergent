@@ -1,6 +1,6 @@
 
-$(document).ready(function(){
-  
+$(document).ready(function () {
+
     // Mobile Menu js
     $(".all-p-humber").click(function () {
         $(this).toggleClass("open");
@@ -10,12 +10,11 @@ $(document).ready(function(){
     });
 
     $('.nt-health-crisis-content').owlCarousel({
-        items: 4,
         nav: true,
         dots: false,
         autoplay: true,
         navText: ['<img src="assets/images/icons/arrow-left.png">',
-                  '<img src="assets/images/icons/arrow-right.png">'],
+            '<img src="assets/images/icons/arrow-right.png">'],
         responsive: {
             0: {
                 items: 1
@@ -32,28 +31,36 @@ $(document).ready(function(){
         }
     });
 
+    $('.nt-similar-hero-image-slider').owlCarousel({
+        items: 1,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        loop: true
+    });
+
 
 });
 
 
 
 // mental health tab js
-function mentalHealthTab(evt,tabId) {
+function mentalHealthTab(evt, tabId) {
     let i;
     let tabcontent;
     let tabBtn;
 
-     // Get all elements with class="nt-mhu-right-text" and hide them
-     tabcontent = document.getElementsByClassName('nt-mhu-right-text');
-     for(i = 0; i < tabcontent.length; i++) {
+    // Get all elements with class="nt-mhu-right-text" and hide them
+    tabcontent = document.getElementsByClassName('nt-mhu-right-text');
+    for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = 'none';
-     }
+    }
 
     // Get all elements with class="tab-btn" and remove the class "active"
-     tabBtn = document.getElementsByClassName('tab-btn');
-     for(i =0; i < tabBtn.length; i ++) {
-        tabBtn[i].className = tabBtn[i].className.replace("active","");
-     }
+    tabBtn = document.getElementsByClassName('tab-btn');
+    for (i = 0; i < tabBtn.length; i++) {
+        tabBtn[i].className = tabBtn[i].className.replace("active", "");
+    }
 
 
     // Show the current tab, and add an "active" class to the button that opened the tab
