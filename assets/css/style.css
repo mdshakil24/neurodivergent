@@ -69,6 +69,14 @@ h3 {
   line-height: 1.5;
 }
 
+h5 {
+  font-weight: 500;
+  font-size: 26px;
+  color: #664481;
+  text-transform: inherit;
+  line-height: 1.5;
+}
+
 p {
   font-weight: 400;
   font-size: 16px;
@@ -556,14 +564,19 @@ section.nt-hero-area img {
   color: #5b9e6b;
 }
 
-.nt-mental-health-lower-content .row>* {
+.nt-mental-health-lower-content .row>*,.nt-accessing-gp-lower-step .row>*,.nt-accessing-gp-lower-videos .row>*,.nt-urgent-help-upper-content .row>* {
   padding-right: calc(var(--bs-gutter-x) * .7);
   padding-left: calc(var(--bs-gutter-x) * .7);
 }
 
+
 /*===== End NT Mental Health Area Css =====*/
 
-/*================ Start NT About Us Area Css ================*/
+/*============================================================*/
+/*================ Start NT About Us Page Css ================*/
+/*============================================================*/
+
+/*===== Start NT About Us Area Css =====*/
 .nt-about-us-area {
   padding-top: 50px;
 }
@@ -742,8 +755,311 @@ button.accordion-button {
   border: 18px solid #64d5f4;
 }
 
-
 /*===== End NT About Us Area Css =====*/
+
+
+
+/*============================================================*/
+/*================ Start NT Accessing Page Css ===============*/
+/*============================================================*/
+
+/*===== Start NT Accessing Area Css =====*/
+
+.nt-accessing-gp-area {
+  background: #FFFFFF;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.nt-accessing-gp-upper-heading h1 {
+  margin-bottom: 40px;
+}
+.nt-accessing-gp-upper-right-text {
+  padding-left: 85px;
+}
+.nt-accessing-gp-upper-left-text p {
+  font-size: 22px;
+  color: #005885;
+  width: 88%;
+  margin-bottom: 45px;
+}
+.nt-accessing-gp-upper-right-text h5 {
+  font-size: 20px;
+  color: #005885;
+}
+.nt-accessing-gp-upper-right-text-list p img {
+  width: 15px;
+  height: auto;
+  margin-right: 6px;
+}
+.nt-accessing-gp-upper-right-text-list {
+  padding-top: 25px;
+}
+.nt-accessing-gp-upper-right-text-list p {
+  color: #005885;
+  margin-bottom: 10px;
+}
+
+.nt-accessing-gp-upper-middle-text p {
+  font-size: 22px;
+  font-weight: 500;
+  color: #005885;
+  margin-top: 30px;
+  width: 92%;
+}
+
+.nt-accessing-gp-upper-middle-text {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.nt-accessing-gp-upper-dropdown-content button.accordion-button {
+  width: 65%;
+}
+.accessing-dropdown-body p {
+  color: #664481;
+}
+.accessing-dropdown-body p span {
+  font-weight: 600;
+  color: #664481;
+}
+
+.accessing-dropdown-body h6 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #664481;
+}
+.accessing-dropdown-body p,.accessing-dropdown-body h6 {
+  margin-bottom: 25px;
+}
+.accessing-dropdown-body p:nth-last-child(2) {
+  margin-bottom: 8px;
+}
+.accessing-dropdown-body p:last-child {
+  margin-bottom: 0;
+}
+
+.single-nt-accessing-gp-lower {
+  background: url('../images/accessing/s1.png');
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  padding: 50px 65px 80px;
+  border-radius: 10px;
+  min-height: 345px;
+  position: relative;
+}
+
+.single-nt-accessing-gp-lower.step1 {
+  background: url('../images/accessing/s1.png');
+}
+.single-nt-accessing-gp-lower.step2 {
+  background: url('../images/accessing/s2.png');
+}
+.single-nt-accessing-gp-lower.step3 {
+  background: url('../images/accessing/s3.png');
+}
+
+.single-nt-accessing-gp-lower h6 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #005885;
+  text-transform: inherit;
+  text-align: center;
+  line-height: 1.4;
+
+}
+
+.nt-accessing-gp-lower-step {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.single-nt-accessing-gp-lower-videos iframe {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+
+/*===== End NT Accessing Area Css =====*/
+
+/*==============================================================*/
+/*================ Start NT Urgent Help Page Css ===============*/
+/*==============================================================*/
+
+/*===== Start NT Urgent Help Area Css =====*/
+.nt-urgent-help-area {
+  background: #FFFFFF;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.nt-urgent-help-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.nt-urgent-help-heading h3 {
+  color: #027db9;
+  text-align: right;
+}
+
+.single-nt-urgent-help-upper {
+  border: 1px solid #795b91;
+  border-radius: 22px;
+  min-height: 728px;
+}
+
+.single-nt-urgent-help-upper-image img {
+  width: 100%;
+  height: auto;
+}
+.single-nt-urgent-help-upper-text {
+  padding: 20px 35px 30px;
+}
+.single-nt-urgent-help-upper-text h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.3;
+}
+.single-nt-urgent-help-upper-text h3 {
+  width: 75%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.single-nt-urgent-help-upper-accordion button.accordion-button {
+  color: #5b9e6b;
+}
+
+.single-nt-urgent-help-upper-accordion .accordion-button:not(.collapsed) {
+  color: #005885;
+}
+.single-nt-urgent-help-accordion-body p {
+  color: #005885;
+  margin-bottom: 15px;
+
+}
+
+.single-nt-urgent-help-accordion-body-list p {
+  line-height: 1.3;
+}
+.single-nt-urgent-help-accordion-body-list p img {
+  width: 12px;
+  height: auto;
+  margin-right: 2px;
+}
+.single-nt-urgent-help-upper-accordion .accordion-body {
+  padding-bottom: 0;
+}
+.single-nt-urgent-help-accordion-body p span {
+  font-weight: 500;
+}
+
+.nt-urgent-help-upper-left-text,.nt-urgent-help-upper-right-text {
+  border: 1px solid #795b91;
+  border-radius: 15px;
+  padding: 40px 45px;
+}
+
+.nt-urgent-help-upper-content .row:last-child {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.nt-urgent-help-upper-left-text p {
+  color: #005885;
+  margin-top: 25px;
+}
+.nt-urgent-help-upper-right-text h1 {
+  font-size: 44px;
+  color: #027db9;
+  line-height: 1.3;
+}
+.nt-urgent-help-upper-right-text h5 {
+  font-size: 24px;
+  color: #027db9;
+  margin-top: 60px;
+}
+
+/* ----- === ----- */
+.nt-urgent-help-lower-content {
+  padding-left: .7em;
+  padding-right: 2em;
+}
+.parent-single-nt-urgent-help-lower-content {
+  border-top: 10px solid #cebace;
+  padding-top: 30px;
+  position: relative;
+}
+
+.single-nt-urgent-help-lower-heading p {
+  font-size: 18px;
+  color: #005885;
+  margin-top: 10px;
+}
+
+.single-nt-urgent-help-lower-row p,.single-nt-urgent-help-lower-row a {
+  font-weight: 400;
+  font-size: 20px;
+  color: #005885;
+  text-transform: inherit;
+}
+
+.single-nt-urgent-help-lower-row {
+  padding: 50px 0;
+}
+
+.single-nt-urgent-help-lower-left-img-txt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.single-nt-urgent-help-lower-left-content .single-nt-urgent-help-lower-left-img-txt:last-child {
+  margin-bottom: 0;
+}
+
+.single-nt-urgent-help-lower-left-img-txt img,.single-nt-urgent-help-lower-middle-content img {
+  width: 42px;
+  height: auto;
+
+}
+.single-nt-urgent-help-lower-left-img-txt img {
+  margin-right: 15px;
+}
+.single-nt-urgent-help-lower-middle-content img {
+  margin-bottom: 40px;
+}
+
+.single-nt-urgent-help-lower-right-content a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #005885;
+}
+
+.single-nt-urgent-help-lower-row .row {
+  align-items: flex-end;
+}
+
+.single-nt-urgent-help-lower-left-content,.single-nt-urgent-help-lower-middle-content {
+  border-right: 1px solid #a996b8;
+  padding: 10px 0;
+}
+.single-nt-urgent-help-lower-right-content a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #005885;
+  max-width: 160px;
+}
+
+
+/*===== End NT Urgent Help Area Css =====*/
+
+
+
+
+
+
 
 
 
@@ -813,3 +1129,4 @@ button.accordion-button {
 
 
 /*===== End NT Footer Area Css =====*/
+
