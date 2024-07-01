@@ -1,10 +1,298 @@
 @media all and (max-width: 1399px) {
+    nav.neurodivergent-lower-nav>ul li a {
+        padding: 20px 22px 30px;
+    }
 
+    .nt-hero-content {
+        padding-top: 35px;
+    }
+
+    .nt-health-crisis-content {
+        width: 95%;
+    }
+
+    .single-nt-health-crisis-content {
+        padding: 0 30px;
+    }
+
+    .nt-mental-health-upper-right-content {
+        padding-left: 0;
+    }
+
+    .nt-mhu-left-text p {
+        margin-bottom: 30px;
+    }
+
+    .nt-mental-health-lower-content .row>*,
+    .nt-accessing-gp-lower-step .row>*,
+    .nt-accessing-gp-lower-videos .row>*,
+    .nt-urgent-help-upper-content .row>* {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+
+    .nt-similar-hero-btn .nt-hero-btn {
+        padding-top: 40px;
+    }
+
+    .single-nt-accessing-gp-lower {
+        padding: 50px 50px 80px;
+    }
+
+    .single-nt-urgent-help-upper-text h1 {
+        font-size: 41px;
+    }
+
+    .single-nt-urgent-help-upper {
+        min-height: 705px;
+    }
+
+    .nt-urgent-help-upper-right-text h1 {
+        font-size: 40px;
+    }
+
+    .nt-urgent-help-upper-right-text h5 {
+        margin-top: 35px;
+    }
+
+    .nt-urgent-help-lower-content {
+        padding-left: 0;
+        padding-right: 1em;
+    }
+
+    .nt-footer-content {
+        padding: 70px 0 100px;
+    }
 
 }
 
+@media all and (min-width: 1200px) {
+    nav.neurodivergent-lower-nav>ul {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+}
 
 @media all and (max-width: 1199px) {
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    nav.neurodivergent-upper-nav {
+        display: none;
+    }
+
+    nav.neurodivergent-lower-nav>ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background: #53BFEC;
+        z-index: 9;
+        top: 112px;
+        padding: 30px 0;
+        display: none;
+        text-align: center;
+    }
+
+    nav.neurodivergent-lower-nav>ul li a:hover {
+        color: #081b38;
+    }
+
+    .dropdown-toggle.show::before {
+        display: none;
+    }
+
+    nav.neurodivergent-lower-nav ul li>ul {
+        width: 325px;
+        padding: 20px 18px 20px;
+        position: relative !important;
+        -webkit-transform: none !important;
+        -ms-transform: none !important;
+        transform: none !important;
+        margin: auto !important;
+    }
+
+    nav.neurodivergent-lower-nav>ul li a,
+    .dropdown-toggle.show {
+        padding: 15px 15px 15px;
+    }
+
+    nav.neurodivergent-lower-nav>ul li a {
+        font-size: 25px;
+    }
+
+    nav.neurodivergent-lower-nav ul li>ul {
+        width: 380px;
+        padding: 20px 25px 20px;
+        border-top-left-radius: 10px;
+
+    }
+
+    .nt-header-upper-content {
+
+        padding: 30px 0px;
+    }
+
+    nav.neurodivergent-upper-nav ul {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .nt-header-upper-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .neurodivergent-logo,
+    .neurodivergent-upper-nav {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    nav.neurodivergent-upper-nav ul li a {
+        margin: 0 20px;
+    }
+
+    .neurodivergent-logo img {
+        width: 330px;
+    }
+
+    nav.neurodivergent-lower-nav>ul>li:first-child a {
+        padding-left: 15px;
+    }
+
+    nav.neurodivergent-lower-nav>ul>li:last-child a {
+        padding-right: 15px;
+    }
+
+    .dropdown-toggle.show {
+        border-radius: 10px;
+    }
+
+    nav.neurodivergent-lower-nav ul li>ul {
+        width: 325px;
+        padding: 20px 18px 20px;
+    }
+
+    nav.neurodivergent-lower-nav ul li>ul li>a {
+        font-size: 20px;
+    }
+
+    .nt-hero-content {
+        max-width: 100%;
+    }
+
+    .container.nt-hero-container {
+        position: relative;
+    }
+
+    .nt-hero-content {
+        padding-bottom: 30px;
+    }
+
+    .nt-health-crisis-heading-text h3 {
+        width: 100%;
+    }
+
+    .nt-mental-health-heading h2 {
+        margin-bottom: 30px;
+    }
+
+    .single-nt-mhl-content {
+        border-radius: 22px;
+        margin-bottom: 25px;
+    }
+
+    .nt-accessing-gp-upper-right-text {
+        padding-left: 0;
+    }
+
+    .single-nt-accessing-gp-lower {
+        padding: 30px 20px 60px;
+        min-height: 300px;
+    }
+
+    .single-nt-accessing-gp-lower-videos iframe {
+        width: 100%;
+        margin-bottom: 25px;
+        height: 255px;
+    }
+
+    .nt-about-us-right-content {
+        padding-left: 60px;
+    }
+
+    .nt-urgent-help-heading h3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 70%;
+        flex: 0 0 70%;
+    }
+
+    .nt-urgent-help-heading h3 br {
+        display: none;
+    }
+
+    .single-nt-urgent-help-upper-text h1 {
+        font-size: 35px;
+    }
+
+    .single-nt-urgent-help-upper-text {
+        padding: 20px 25px 30px;
+    }
+
+    .single-nt-urgent-help-upper-text h3 {
+        width: 85%;
+        font-size: 25px;
+    }
+
+    .single-nt-urgent-help-upper {
+        min-height: 580px;
+    }
+
+    .nt-urgent-help-upper-left-text,
+    .nt-urgent-help-upper-right-text {
+        padding: 30px 30px;
+    }
+
+    .nt-urgent-help-upper-right-text h5 {
+        margin-top: 50px;
+    }
+
+    .nt-urgent-help-area {
+        padding-bottom: 30px;
+    }
+
+    .nt-accessing-gp-area {
+        padding-bottom: 70px;
+    }
+
+    .nt-footer-content {
+        padding: 50px 0 100px;
+    }
+
+    section.nt-about-goal-area {
+        padding-top: 50px;
+        padding-bottom: 90px;
+    }
+
+    .single-nt-about-lower-team {
+        margin-top: 65px;
+    }
 
 
 }
@@ -12,11 +300,238 @@
 
 @media all and (max-width: 991px) {
 
+    .nt-accessing-gp-upper-dropdown-content button.accordion-button {
+        width: 75%;
+    }
+
+    .nt-footer-content {
+        padding: 30px 0 90px;
+    }
+
+    .single-nt-mhl-content {
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+
+    .nt-mental-health-area {
+        padding-top: 70px;
+    }
+
+    .nt-about-us-right-content {
+        padding-left: 40px;
+    }
+
+    .single-nt-about-team-image img {
+        width: 310px;
+        height: 310px;
+    }
+
+    .single-nt-accessing-gp-lower {
+        padding: 35px 40px 80px;
+        min-height: auto;
+        margin-bottom: 35px;
+    }
+
+    .nt-accessing-gp-lower-step {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .single-nt-accessing-gp-lower-videos iframe {
+        width: 100%;
+        height: 410px;
+    }
+
+    .nt-urgent-help-heading {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .nt-urgent-help-heading h3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .single-nt-urgent-help-upper {
+        min-height: auto;
+        margin-bottom: 40px;
+        border-radius: 35px;
+    }
+
+    .nt-urgent-help-upper-left-text {
+        margin-bottom: 35px;
+    }
+
+    .single-nt-urgent-help-lower-left-content,
+    .single-nt-urgent-help-lower-middle-content {
+        border-bottom: 1px solid #a996b8;
+        border-right: none;
+        padding: 25px 0;
+    }
+
+    .single-nt-urgent-help-lower-right-content {
+        padding-top: 25px;
+    }
+
+    .single-nt-urgent-help-lower-row {
+        padding-top: 20px;
+    }
+
 
 }
 
 
 @media all and (max-width: 767px) {
+
+    h1,
+    .nt-urgent-help-upper-right-text h1 {
+        font-size: 35px;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h5,
+    .nt-hero-content h5,
+    .nt-mhu-left-heading h5,
+    .single-nt-about-team-text h5 {
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    h6,
+    .nt-about-us-right-heading h6,
+    .single-nt-accessing-gp-lower h6,
+    .nt-urgent-help-heading h3 {
+        font-size: 22px;
+    }
+
+    .nt-mhu-left-text p,
+    .nt-mhu-left-heading p,
+    .nt-accessing-gp-upper-left-text p,
+    .nt-accessing-gp-upper-middle-text p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .nt-mhu-left-heading p {
+        margin: 20px 0 30px;
+    }
+
+    .nt-accessing-gp-upper-left-text p {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .nt-hero-content p {
+        font-size: 20px;
+        line-height: 1.4;
+        margin: 20px 0;
+    }
+
+    .neurodivergent-logo img {
+        width: 275px;
+    }
+
+    .mobile-menu-icon {
+        top: 37px;
+    }
+
+    .nt-health-crisis-content.owl-theme button.owl-prev img {
+        left: 0;
+    }
+
+    .nt-health-crisis-content.owl-theme button.owl-next img {
+        right: 0;
+    }
+
+    .single-nt-health-crisis-content {
+        padding: 0 45px;
+    }
+
+    .nt-mhu-right-tab-btn button {
+        font-size: 19px;
+    }
+
+    .nt-footer-content {
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .nt-footer-left-text p {
+        margin-top: 20px;
+    }
+
+    .nt-similar-hero-btn .nt-hero-btn {
+        padding-top: 25px;
+    }
+
+    .nt-similar-hero-btn .nt-hero-btn a {
+        padding: 6px 14px;
+        margin-left: 8px;
+        font-size: 18px;
+    }
+
+    .nt-about-us-right-content {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .nt-about-us-left-content h6 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .nt-about-us-right-heading h6 {
+        margin-bottom: 20px;
+    }
+
+    .single-nt-about-team-text {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .single-nt-accessing-gp-lower-videos iframe {
+        height: 290px;
+    }
+
+    .nt-urgent-help-upper-right-text h5 {
+        margin-top: 30px;
+    }
+
+    .single-nt-urgent-help-lower-middle-content img {
+        margin-bottom: 20px;
+    }
+
+    .nt-urgent-help-area {
+        padding-bottom: 0;
+    }
+
+    .nt-accessing-gp-area {
+        padding-bottom: 35px;
+    }
+
+    .nt-accessing-gp-upper-middle-text {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .nt-accessing-gp-upper-dropdown-content button.accordion-button {
+        width: 100%;
+    }
+
 
 
 }
@@ -24,14 +539,239 @@
 
 @media all and (max-width: 575px) {
 
+    .nt-mhu-right-tab-btn button {
+
+        font-size: 17px;
+
+        padding: 20px 30px 40px;
+
+    }
+
+    .nt-mhu-right-text {
+        padding: 35px 20px;
+    }
+
+    .nt-footer-area img {
+        width: 100%;
+        height: 200px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .nt-footer-content {
+        padding-top: 30px;
+    }
+
+    .nt-similar-hero-area img {
+        width: 100%;
+        height: 200px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    nav.neurodivergent-lower-nav>ul li a {
+        font-size: 22px;
+    }
+
+    nav.neurodivergent-lower-nav>ul {
+        top: 102px;
+        padding: 20px 0;
+    }
+
+    .nt-mhu-right-tab-btn button {
+        padding: 20px 25px 40px;
+    }
+
+    .nt-footer-left-link a {
+        font-size: 22px;
+        margin-right: 25px;
+    }
+
+    .nt-footer-left-social a i {
+        font-size: 30px;
+    }
+
+    .single-nt-mhl-content {
+        min-height: auto;
+    }
+
 
 }
 
 
 @media all and (max-width: 450px) {
 
+    h1,
+    .nt-urgent-help-upper-right-text h1 {
+        font-size: 32px;
+        line-height: 1.4;
+    }
+
+    .neurodivergent-logo img {
+        width: 200px;
+    }
+
+    .mobile-menu-icon {
+        top: 32px;
+        right: 12px;
+    }
+
+    .nt-hero-content {
+        padding-top: 20px;
+    }
+
+    h5,
+    .nt-hero-content h5,
+    .nt-mhu-left-heading h5,
+    .single-nt-about-team-text h5 {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+
+    .nt-hero-btn a {
+        font-size: 20px;
+    }
+
+    .nt-health-crisis-heading-text h3 {
+        font-size: 22px;
+    }
+
+    .single-nt-health-crisis-text p,
+    .single-nt-urgent-help-lower-row p,
+    .single-nt-urgent-help-lower-row a {
+        font-size: 16px;
+    }
+
+    .single-nt-health-crisis-img img {
+        height: 60px !important;
+    }
+
+    .single-nt-mhu-right-text p,
+    .nt-mhu-left-text p,
+    .nt-mhu-left-heading p,
+    .nt-accessing-gp-upper-left-text p,
+    .nt-accessing-gp-upper-middle-text p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+
+    .nt-mhu-left-heading img {
+        width: 75px;
+        margin-bottom: 30px;
+    }
+
+    .nt-footer-left-link a {
+        font-size: 18px;
+        margin-right: 18px;
+    }
+
+    .nt-footer-left-social a i {
+        font-size: 22px;
+    }
+
+    .nt-footer-left-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 72%;
+        flex: 0 0 72%;
+    }
+
+    .nt-mhu-right-text h5 {
+
+        font-size: 18px;
+
+        width: 100%;
+    }
+
+    .nt-mhu-right-tab-btn button {
+        padding: 20px 18px 40px;
+        font-size: 16px;
+    }
+
+    .nt-mental-health-area,
+    section.nt-about-goal-area {
+        padding: 50px 0;
+    }
+
+    .nt-mental-health-upper-left-content {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .nt-similar-hero-btn .nt-hero-btn a {
+        padding: 6px 12px;
+        margin-left: 12px;
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    button.accordion-button {
+        font-size: 22px;
+    }
+
+    .single-nt-about-team-image img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .single-nt-about-lower-team {
+        margin-top: 45px;
+    }
+
+    .nt-about-us-area,
+    .nt-accessing-gp-area {
+        padding-top: 30px;
+    }
+
+    .nt-accessing-gp-upper-heading h1 {
+        margin-bottom: 25px;
+    }
+
+    .single-nt-accessing-gp-lower h6 {
+        font-size: 18px;
+    }
+
+    .single-nt-accessing-gp-lower {
+        padding: 35px 25px 50px;
+        min-height: auto;
+        margin-bottom: 35px;
+    }
+
+    .single-nt-accessing-gp-lower-videos iframe {
+        height: 170px;
+    }
+
+    nav.neurodivergent-lower-nav>ul li a {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    nav.neurodivergent-lower-nav>ul {
+        top: 90px;
+        padding: 25px 0;
+    }
+
+    nav.neurodivergent-lower-nav ul li>ul {
+        width: 300px;
+        padding: 20px 13px 20px;
+    }
+
+    nav.neurodivergent-lower-nav ul li>ul li>a {
+        font-size: 18px;
+    }
+
+    .single-nt-urgent-help-upper-text h1 {
+        font-size: 30px;
+    }
+
+    .single-nt-urgent-help-lower-row p,
+    .single-nt-urgent-help-lower-row a {
+        word-break: break-all;
+    }
+
+    .single-nt-urgent-help-lower-left-img-txt img,
+    .single-nt-urgent-help-lower-middle-content img {
+        width: 35px;
+    }
 
 }
-
-
-

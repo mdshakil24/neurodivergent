@@ -6,7 +6,7 @@ $(document).ready(function(){
         $(this).toggleClass("open");
     });
     $(".mobile-menu-icon").click(function () {
-        $('.lv-header-nav-menu ul').slideToggle();
+        $('.neurodivergent-lower-nav > ul').slideToggle();
     });
 
     $('.nt-health-crisis-content').owlCarousel({
@@ -20,8 +20,14 @@ $(document).ready(function(){
             0: {
                 items: 1
             },
+            768: {
+                items: 2
+            },
             992: {
-                items: 4
+                items: 3
+            },
+            1200: {
+                items: 3
             }
         }
     });
@@ -31,7 +37,7 @@ $(document).ready(function(){
 
 
 
-
+// mental health tab js
 function mentalHealthTab(evt,tabId) {
     let i;
     let tabcontent;
@@ -57,4 +63,3 @@ function mentalHealthTab(evt,tabId) {
 
 }
 
-// mentalHealthTab()
