@@ -106,18 +106,12 @@ p {
   margin-left: 12px;
 }
 
-.nt-hero-container,
-.nt-footer-container,
-.nt-similar-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  max-width: 1320px;
-  margin: 0 auto;
-  right: 0;
-  z-index: 9;
+.single-nt-similar-hero-slide {
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  height: 500px;
 }
+
 
 .mobile-menu-icon {
   padding: 5px;
@@ -375,6 +369,7 @@ nav.neurodivergent-lower-nav ul li>ul li>a {
   background-size: 100% 100% !important;
   background-position: center center !important;
   position: relative;
+  height: 600px;
 }
 
 
@@ -1276,6 +1271,8 @@ button.accordion-button {
 /*===== Start NT Footer Area Css =====*/
 .nt-footer-area {
   position: relative;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 .nt-footer-area img {

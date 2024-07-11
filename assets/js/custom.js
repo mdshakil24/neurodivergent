@@ -13,8 +13,8 @@ $(document).ready(function () {
         nav: true,
         dots: false,
         autoplay: true,
-        navText: ['<img src="assets/images/icons/arrow-left.png">',
-            '<img src="assets/images/icons/arrow-right.png">'],
+        navText: ['<a href="#"><img src="assets/images/icons/arrow-left.png"></a>',
+            '<a href="#"><img src="assets/images/icons/arrow-right.png"></a>'],
         responsive: {
             0: {
                 items: 1
@@ -31,7 +31,7 @@ $(document).ready(function () {
         }
     });
 
-    $('.nt-similar-hero-image-slider').owlCarousel({
+    $('.nt-similar-hero-slider').owlCarousel({
         items: 1,
         nav: false,
         dots: false,
