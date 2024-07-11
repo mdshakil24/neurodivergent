@@ -76,6 +76,13 @@
 
 @media all and (max-width: 1199px) {
 
+    .nt-hero-area {
+        background-size: cover !important;
+    }
+    .single-nt-similar-hero-slide {
+        height: 430px;
+    }
+
     .mobile-menu-icon {
         display: block;
     }
@@ -396,11 +403,21 @@
         top: 24px;
         left: 275px;
     }
+    .single-nt-similar-hero-slide {
+        height: 340px;
+    }
 
 }
 
 
 @media all and (max-width: 767px) {
+    .single-nt-similar-hero-slide {
+        background-size: cover !important;
+        background-position: center center !important;
+    }
+    .nt-hero-area {
+        height: 420px;
+    }
 
     h1,
     .nt-urgent-help-upper-right-text h1 {
@@ -418,9 +435,9 @@
     }
 
     h5,
-    .nt-hero-content h5,
+    .nt-hero-content h1,
     .nt-mhu-left-heading h5,
-    .single-nt-about-team-text h5 {
+    .single-nt-about-team-text a.member {
         font-size: 23px;
         line-height: 1.4;
     }
@@ -647,7 +664,7 @@
     h5,
     .nt-hero-content h5,
     .nt-mhu-left-heading h5,
-    .single-nt-about-team-text h5 {
+    .single-nt-about-team-text a.member {
         font-size: 22px;
         line-height: 1.4;
     }

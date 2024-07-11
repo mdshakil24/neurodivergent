@@ -121,7 +121,7 @@ p {
   box-shadow: 0 0 7px rgba(0, 0, 0, .5);
   display: none;
   position: absolute;
-  right: 30px;
+  right: 0;
   top: 40px;
   z-index: 9;
 }
@@ -215,9 +215,15 @@ li.mobile-dropdown::after {
   top: 23px;
   left: 272px;
 }
+.nt-similar-hero-btn .nt-hero-btn a {
+  margin: 0 !important;
+  margin-left: 15px !important;
+}
 
 /*===== Start NT Header Area Css =====*/
-
+.nt-header-area .container {
+  position: relative;
+}
 .nt-header-upper-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -384,7 +390,7 @@ section.nt-hero-area img {
   padding-bottom: 140px;
 }
 
-.nt-hero-content h5 {
+.nt-hero-content h1 {
   font-weight: 500;
   font-size: 28px;
   color: #081b38;
@@ -628,11 +634,7 @@ section.nt-hero-area img {
   box-shadow: rgba(14, 30, 37, 0.18) 0px 3px 6px 0px, rgba(14, 30, 37, 0.32) 0px 1px 8px 0px;
 }
 
-.single-nt-mhu-right-text p img {
-  width: 15px;
-  height: auto;
-  margin-right: 6px;
-}
+
 
 .nt-mhu-right-text h5 {
   font-weight: 600;
@@ -647,6 +649,29 @@ section.nt-hero-area img {
   font-size: 19px;
   color: #664481;
   text-transform: inherit;
+  line-height: 1.5;
+}
+#nt-mhu-list-content li {
+  font-size: 19px;
+  color: #664481;
+  text-transform: inherit;
+  line-height: 1.5;
+  margin-top: 25px;
+}
+ul#nt-mhu-list-content span {
+  width: 10px;
+  height: 10px;
+  background: #664481;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+ul#nt-mhu-child-list {
+  margin-top: 25px;
+}
+
+ul#nt-mhu-child-list li {
+  margin-top: 0;
   line-height: 1.5;
 }
 
@@ -761,7 +786,7 @@ section.nt-hero-area img {
   margin-bottom: 40px;
 }
 
-.nt-about-us-right-link p {
+.nt-about-us-right-link a {
   font-weight: 400;
   font-size: 20px;
   display: block;
@@ -832,19 +857,22 @@ button.accordion-button {
   padding: 20px 0 15px;
 }
 
-.single-nt-about-accordion-item p {
+.nt-about-goal-content .accordion-body p {
   color: #664481;
   line-height: 1.7;
+  margin-bottom: 30px;
 }
 
-.single-nt-about-accordion-item p span {
+.nt-about-goal-content .accordion-body p span {
   font-weight: 600;
   color: #664481;
 }
 
-.single-nt-about-accordion-item {
-  margin-bottom: 30px;
+.nt-about-goal-content .accordion-body p:last-child {
+  margin-bottom: 0;
 }
+
+
 
 .single-nt-about-accordion-item:last-child {
   margin-bottom: 0;
@@ -866,15 +894,21 @@ button.accordion-button {
   margin-top: 35px;
 }
 
-.single-nt-about-team-text h5 {
+.single-nt-about-team-text a.member {
   font-weight: 500;
   font-size: 29px;
   color: #664481;
   text-transform: capitalize;
+  display: block;
 }
 
-.single-nt-about-team-text p {
-  color: #664481;
+.single-nt-about-team-text a.role {
+    font-weight: 400;
+    font-size: 16px;
+    color: #664481;
+    text-transform: inherit;
+    line-height: 1.5;
+    display: block;
 }
 
 .single-nt-about-team-image img {
@@ -948,19 +982,26 @@ button.accordion-button {
   color: #005885;
 }
 
-.nt-accessing-gp-upper-right-text-list p img {
-  width: 15px;
-  height: auto;
-  margin-right: 6px;
-}
+
 
 .nt-accessing-gp-upper-right-text-list {
   padding-top: 25px;
 }
 
-.nt-accessing-gp-upper-right-text-list p {
-  color: #005885;
-  margin-bottom: 10px;
+.nt-accessing-gp-upper-right-text-list li {
+    font-weight: 400;
+    font-size: 16px;
+    color: #005885;
+    text-transform: inherit;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.nt-accessing-gp-upper-right-text-list li span {
+  width: 10px;
+  height: 10px;
+  background: rgb(102, 68, 129);
+  border-radius: 50%;
+  margin-right: 8px;
 }
 
 .nt-accessing-gp-upper-middle-text p {
@@ -1127,14 +1168,24 @@ button.accordion-button {
 
 }
 
-.single-nt-urgent-help-accordion-body-list p {
+.single-nt-urgent-help-accordion-body-list li {
+    font-weight: 400;
+    font-size: 16px;
+    color: #005885;
+    text-transform: inherit;
+  margin-bottom: 15px;
   line-height: 1.3;
 }
+.single-nt-urgent-help-accordion-body-list li span {
+    width: 10px;
+    height: 10px;
+    background: rgb(102, 68, 129);
+    border-radius: 50%;
+    margin-right: 8px;
+}
 
-.single-nt-urgent-help-accordion-body-list p img {
-  width: 12px;
-  height: auto;
-  margin-right: 2px;
+.single-nt-urgent-help-accordion-body-list li span {
+
 }
 
 .single-nt-urgent-help-upper-accordion .accordion-body {

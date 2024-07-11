@@ -13,8 +13,8 @@ $(document).ready(function () {
         nav: true,
         dots: false,
         autoplay: true,
-        navText: ['<a href="#"><img src="assets/images/icons/arrow-left.png"></a>',
-            '<a href="#"><img src="assets/images/icons/arrow-right.png"></a>'],
+        navText: ['<img src="assets/images/icons/arrow-left.png">',
+            '<img src="assets/images/icons/arrow-right.png">'],
         responsive: {
             0: {
                 items: 1
