@@ -9,38 +9,44 @@ $(document).ready(function () {
         $('.neurodivergent-lower-nav > ul').slideToggle();
     });
 
-    $('.nt-health-crisis-content').owlCarousel({
-        nav: true,
+    // HOME PAGE SLIDER 
+    $('.nt-health-crisis-content').slick({
+        autoplay: false,
+        prevArrow:"<a href='#' class='slick-prev pull-left'><img src='assets/images/icons/arrow-left.png' alt=''></a>",
+        nextArrow:"<a href='#' class='slick-next pull-right'><img src='assets/images/icons/arrow-right.png' alt=''></a>",
         dots: false,
-        autoplay: true,
-        navText: ['<img src="assets/images/icons/arrow-left.png">',
-            '<img src="assets/images/icons/arrow-right.png">'],
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 2
-            },
-            992: {
-                items: 3
-            },
-            1200: {
-                items: 3
+        arrows: true,
+        slidesToShow: 3,
+        infinite: false,
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2
             }
-        }
-    });
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
 
-    $('.nt-similar-hero-slider').owlCarousel({
-        items: 1,
-        nav: false,
-        dots: false,
+      // SIMILAR HERO SLIDER 
+      $('.nt-similar-hero-slider').slick({
         autoplay: true,
-        loop: true
-    });
+        dots: false,
+        arrows: true,
+        slidesToShow: 1,
+        infinite: true,
+      });
 
 
 });
+
+
 
 
 
@@ -66,7 +72,19 @@ function mentalHealthTab(evt, tabId) {
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(tabId).style.display = 'block';
     evt.currentTarget.className += " active";
-
-
 }
+
+// use for remove tab anchor default behaviors
+document.querySelectorAll('a.tab-btn').forEach(anchor => {
+    anchor.addEventListener('click', function (event) {
+        event.preventDefault();
+    })
+});
+
+
+
+
+
+
+
 

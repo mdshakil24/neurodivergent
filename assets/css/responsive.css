@@ -75,7 +75,11 @@
 }
 
 @media all and (max-width: 1199px) {
-
+    .nt-header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     .nt-hero-area {
         background-size: cover !important;
     }
@@ -300,7 +304,7 @@
         padding: 50px 0 100px;
     }
 
-    section.nt-about-goal-area {
+    .nt-about-goal-area {
         padding-top: 50px;
         padding-bottom: 90px;
     }
@@ -494,13 +498,12 @@
         padding: 0 45px;
     }
 
-    .nt-mhu-right-tab-btn button {
+    .nt-mhu-right-tab-btn a {
         font-size: 19px;
     }
 
     .nt-footer-content {
-        padding: 0;
-        padding-top: 20px;
+        padding: 40px 0 70px;
     }
 
     .nt-footer-left-text p {
@@ -565,6 +568,11 @@
         width: 100%;
     }
 
+    nav.neurodivergent-lower-nav>ul {
+        top: 102px;
+        padding: 20px 20px;
+    }
+
 
 
 }
@@ -572,7 +580,7 @@
 
 @media all and (max-width: 575px) {
 
-    .nt-mhu-right-tab-btn button {
+    .nt-mhu-right-tab-btn a {
 
         font-size: 17px;
 
@@ -581,6 +589,16 @@
     }
     nav.neurodivergent-lower-nav>ul>li:first-child a {
         padding-left: 15px;
+    }
+
+    .single-nt-health-crisis-content {
+        padding: 0 30px;
+    }
+    .slick-next {
+        right: -5px;
+    }
+    .slick-prev {
+        left: -5px;
     }
 
     .nt-mhu-right-text {
@@ -592,10 +610,6 @@
         height: 200px;
         -o-object-fit: cover;
         object-fit: cover;
-    }
-
-    .nt-footer-content {
-        padding-top: 30px;
     }
 
     .nt-similar-hero-area img {
@@ -614,7 +628,7 @@
         padding: 20px 0;
     }
 
-    .nt-mhu-right-tab-btn button {
+    .nt-mhu-right-tab-btn a {
         padding: 20px 25px 40px;
     }
 
@@ -646,6 +660,10 @@
     .nt-urgent-help-upper-right-text h1 {
         font-size: 32px;
         line-height: 1.4;
+    }
+
+    a.slick-prev.pull-left.slick-arrow img, a.slick-next.pull-right.slick-arrow img {
+        width: 15px;
     }
 
     .neurodivergent-logo img {
@@ -724,13 +742,13 @@
         width: 100%;
     }
 
-    .nt-mhu-right-tab-btn button {
+    .nt-mhu-right-tab-btn a {
         padding: 20px 18px 40px;
         font-size: 16px;
     }
 
     .nt-mental-health-area,
-    section.nt-about-goal-area {
+    .nt-about-goal-area {
         padding: 50px 0;
     }
 

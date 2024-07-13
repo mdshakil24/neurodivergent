@@ -87,6 +87,7 @@ p {
 
 .nt-similar-hero-area {
   position: relative;
+  overflow: hidden;
 }
 
 .nt-similar-hero-area img {
@@ -106,6 +107,16 @@ p {
   margin-left: 12px;
 }
 
+a.slick-prev.pull-left.slick-arrow img,a.slick-next.pull-right.slick-arrow img {
+  width: 18px;
+  height: auto;
+}
+
+a.slick-arrow.slick-disabled img {
+  opacity: .5;
+  cursor: no-drop;
+}
+
 .single-nt-similar-hero-slide {
   background-repeat: no-repeat !important;
   background-size: 100% 100% !important;
@@ -120,10 +131,6 @@ p {
   -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, .5);
   box-shadow: 0 0 7px rgba(0, 0, 0, .5);
   display: none;
-  position: absolute;
-  right: 0;
-  top: 40px;
-  z-index: 9;
 }
 
 .all-p-humber {
@@ -221,9 +228,6 @@ li.mobile-dropdown::after {
 }
 
 /*===== Start NT Header Area Css =====*/
-.nt-header-area .container {
-  position: relative;
-}
 .nt-header-upper-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -379,7 +383,7 @@ nav.neurodivergent-lower-nav ul li>ul li>a {
 }
 
 
-section.nt-hero-area img {
+.nt-hero-area img {
   width: 100%;
   height: auto;
 }
@@ -466,6 +470,7 @@ section.nt-hero-area img {
 .nt-health-crisis-bottom-border img {
   width: 100%;
   height: auto;
+  margin-top: 30px;
 }
 
 .nt-health-crisis-heading-text h3 {
@@ -589,7 +594,7 @@ section.nt-hero-area img {
   flex-wrap: wrap;
 }
 
-.nt-mhu-right-tab-btn button {
+.nt-mhu-right-tab-btn a {
   font-weight: 600;
   font-size: 21px;
   color: #005885;
@@ -609,11 +614,11 @@ section.nt-hero-area img {
   box-shadow: rgba(14, 30, 37, 0.18) 0px 0px 6px 0px, rgba(14, 30, 37, 0.32) 0px 1px 10px 0px;
 }
 
-.nt-mhu-right-tab-btn button.active {
+.nt-mhu-right-tab-btn a.active {
   background-color: #FFFFFF;
 }
 
-.nt-mhu-right-tab-btn button.active::after {
+.nt-mhu-right-tab-btn a.active::after {
   content: '';
   position: absolute;
   background: #FFFFFF;
@@ -651,14 +656,16 @@ section.nt-hero-area img {
   text-transform: inherit;
   line-height: 1.5;
 }
-#nt-mhu-list-content li {
+.nt-mhu-list-content li {
   font-size: 19px;
   color: #664481;
   text-transform: inherit;
   line-height: 1.5;
   margin-top: 25px;
+  list-style: disc;
+  margin-left: 20px;
 }
-ul#nt-mhu-list-content span {
+ul.nt-mhu-list-content span {
   width: 10px;
   height: 10px;
   background: #664481;
@@ -666,13 +673,15 @@ ul#nt-mhu-list-content span {
   margin-right: 8px;
 }
 
-ul#nt-mhu-child-list {
+ul.nt-mhu-child-list {
   margin-top: 25px;
 }
 
-ul#nt-mhu-child-list li {
+ul.nt-mhu-child-list li {
   margin-top: 0;
   line-height: 1.5;
+  list-style: none;
+  margin-left: 0;
 }
 
 .single-nt-mhu-right-text,
@@ -796,7 +805,7 @@ ul#nt-mhu-child-list li {
 /*===== End NT About Us Area Css =====*/
 
 /*===== Start NT About Us Area Css =====*/
-section.nt-about-goal-area {
+.nt-about-goal-area {
   padding-top: 80px;
   padding-bottom: 120px;
 }
@@ -995,6 +1004,8 @@ button.accordion-button {
     text-transform: inherit;
     line-height: 1.5;
     margin-bottom: 10px;
+    list-style: disc;
+    margin-left: 20px;
 }
 .nt-accessing-gp-upper-right-text-list li span {
   width: 10px;
@@ -1173,9 +1184,12 @@ button.accordion-button {
     font-size: 16px;
     color: #005885;
     text-transform: inherit;
-  margin-bottom: 15px;
-  line-height: 1.3;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    list-style: disc;
+    margin-left: 20px;
 }
+
 .single-nt-urgent-help-accordion-body-list li span {
     width: 10px;
     height: 10px;
@@ -1424,6 +1438,4 @@ button.accordion-button {
 .nt-footer-left-social a i:hover {
   color: #53BFEC;
 }
-
-
 /*===== End NT Footer Area Css =====*/
