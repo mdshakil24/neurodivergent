@@ -650,6 +650,17 @@
     nav.neurodivergent-lower-nav>ul li a, .dropdown-toggle.show {
         padding: 15px 15px 15px;
     }
+    button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
+        width: 20px;
+        height: 50px;
+        z-index: 2;
+    }
+    .nt-health-crisis-content .slick-next::before {
+        left: 0;
+    }
+    .nt-health-crisis-content .slick-prev::before {
+        left: 0;
+    }
 
 }
 

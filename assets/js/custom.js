@@ -11,13 +11,11 @@ $(document).ready(function () {
 
     // HOME PAGE SLIDER 
     $('.nt-health-crisis-content').slick({
-        autoplay: false,
-        prevArrow:"<a href='#' class='slick-prev pull-left'><img src='assets/images/icons/arrow-left.png' alt=''></a>",
-        nextArrow:"<a href='#' class='slick-next pull-right'><img src='assets/images/icons/arrow-right.png' alt=''></a>",
+        autoplay: true,
         dots: false,
         arrows: true,
         slidesToShow: 3,
-        infinite: false,
+        infinite: true,
         responsive: [
           {
             breakpoint: 992,
